@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.webapp.controller")
+@ComponentScan("com.webapp.controller,com.webapp.service,com.webapp.repository")
 public class Application {
 
 	public static void main(String[] args) {
